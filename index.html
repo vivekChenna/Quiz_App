@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <img
+        src="https://play-lh.googleusercontent.com/Sk3qgXlM0ULQx1M9052HenpWmpFsKmb-r-NQkxjFGTBzJLyQLnBWWTELRIlrJFYH9Aw"
+        alt="logo"
+      />
+    </div>
+    <div class="main-container">
+      <div><img src="Online Class - 640x533.png" alt="quiz-image" /></div>
+
+      <div class="inner-container">
+        <h2 class="question">HELLO</h2>
+
+        <div>
+          <ul class="option-list">
+            <li>
+              <input type="radio" name="answer" id="ans1" class="answer" />
+              <label for="ans1" id="option1">Option 1</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="ans2" class="answer" />
+              <label for="ans2" id="option2">Option 2</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="ans3" class="answer" />
+              <label for="ans3" id="option3">Option 3</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="ans4" class="answer" />
+              <label for="ans4" id="option4">Option 4</label>
+            </li>
+          </ul>
+        </div>
+
+        <div class="btn">
+          <button id="submit">Submit</button>
+        </div>
+        <div id="showScore" class="ShowArea"></div>
+        <button class="playAgainBtn active" onclick="location.reload()">
+          Play Again
+        </button>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
